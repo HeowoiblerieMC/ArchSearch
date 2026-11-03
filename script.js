@@ -1,7 +1,7 @@
 "use strict";
 
 // ============================================================
-// 1. Search content data
+// Search information
 // ============================================================
 
 const searchData = [
@@ -10,212 +10,115 @@ const searchData = [
         title: "Bedwars Beginner Guide",
         category: "Guide",
         description:
-            "Learn resources, bed defense, bridging, team strategy, and the basic flow of an ArchMC Bedwars match.",
-        content: `
-            <p>
-                Bedwars is a team-based game mode where players protect their
-                own bed while trying to destroy enemy beds.
-            </p>
-
-            <div class="article-note">
-                <p>
-                    Game mechanics may change after ArchMC updates.
-                    Verify important information in-game or through official
-                    ArchMC resources.
-                </p>
-            </div>
-
-            <h3>Getting Started</h3>
-
-            <ol>
-                <li>Collect iron and gold from the generator.</li>
-                <li>Buy blocks before leaving your base.</li>
-                <li>Build a simple defense around your bed.</li>
-                <li>Check nearby teams before starting a bridge.</li>
-                <li>Keep valuable resources in a safe location when possible.</li>
-            </ol>
-
-            <h3>Basic Bed Defense</h3>
-
-            <p>
-                A basic defense should be quick to build and should give your
-                team enough time to react to an attack. Avoid spending all of
-                your early resources on a large defense.
-            </p>
-
-            <h3>Common Beginner Mistakes</h3>
-
-            <ul>
-                <li>Leaving the bed completely unprotected.</li>
-                <li>Carrying too many resources into a dangerous fight.</li>
-                <li>Standing close to the edge during combat.</li>
-                <li>Attacking without checking nearby teams.</li>
-                <li>Ignoring teammates who are defending the base.</li>
-            </ul>
-        `,
+            "Learn resources, bed defense, bridging, and basic team strategy.",
         keywords: [
             "bedwars",
             "bed wars",
             "beginner",
             "guide",
-            "bed",
             "defense",
-            "resources",
             "bridging",
-            "bridge",
-            "team"
+            "resources"
         ],
         trending: true,
-        recommended: true
+        recommended: true,
+        content: `
+            <p>
+                Bedwars is a team game where players protect their own bed
+                while attempting to destroy enemy beds.
+            </p>
+
+            <h3>Getting Started</h3>
+
+            <ol>
+                <li>Collect iron and gold from the generator.</li>
+                <li>Buy blocks before leaving the base.</li>
+                <li>Build a simple bed defense.</li>
+                <li>Check nearby teams before attacking.</li>
+            </ol>
+
+            <h3>Common Mistakes</h3>
+
+            <ul>
+                <li>Leaving the bed completely unprotected.</li>
+                <li>Carrying too many resources into a fight.</li>
+                <li>Standing too close to the edge.</li>
+                <li>Attacking without checking nearby teams.</li>
+            </ul>
+        `
     },
     {
         id: "bedwars-leveling-guide",
         title: "Bedwars Leveling Guide",
         category: "Guide",
         description:
-            "Learn practical ways to earn experience and improve your Bedwars level consistently.",
-        content: `
-            <p>
-                Consistent gameplay is more useful than playing a large number
-                of matches without a clear goal.
-            </p>
-
-            <h3>Leveling Principles</h3>
-
-            <ul>
-                <li>Complete matches instead of leaving early.</li>
-                <li>Focus on useful team objectives.</li>
-                <li>Choose a mode where you can contribute consistently.</li>
-                <li>Review unsuccessful matches and identify one mistake.</li>
-                <li>Practice one skill at a time.</li>
-            </ul>
-
-            <h3>Simple Practice Routine</h3>
-
-            <ol>
-                <li>Practice bridging for five minutes.</li>
-                <li>Play several matches while focusing on awareness.</li>
-                <li>Practice PvP without carrying valuable resources.</li>
-                <li>Review one match and write down one improvement.</li>
-            </ol>
-
-            <div class="article-note">
-                <p>
-                    Experience rewards and leveling systems may change.
-                    ArchSearch does not guarantee a specific amount of
-                    experience per match.
-                </p>
-            </div>
-        `,
+            "Learn how to gain experience and improve your level consistently.",
         keywords: [
             "bedwars",
             "level",
-            "levels",
             "leveling",
             "xp",
             "experience",
-            "grind",
-            "fast",
-            "progress"
+            "grind"
         ],
         trending: true,
-        recommended: true
+        recommended: true,
+        content: `
+            <p>
+                Consistent gameplay is more useful than playing many matches
+                without a clear goal.
+            </p>
+
+            <h3>Leveling Tips</h3>
+
+            <ul>
+                <li>Complete matches instead of leaving early.</li>
+                <li>Focus on team objectives.</li>
+                <li>Practice one skill at a time.</li>
+                <li>Review unsuccessful matches.</li>
+            </ul>
+        `
     },
     {
-        id: "bedwars-strategy-tips",
+        id: "bedwars-strategy",
         title: "Bedwars Strategy Tips",
         category: "Tips",
         description:
-            "Improve resource management, attack timing, defense, and decision-making.",
-        content: `
-            <h3>Resource Management</h3>
-
-            <p>
-                Decide what your team needs before spending resources.
-                Blocks, tools, weapons, and defense materials serve different
-                purposes during each stage of a match.
-            </p>
-
-            <h3>Attack Timing</h3>
-
-            <p>
-                An attack is more effective when the target team is distracted,
-                separated, or missing important resources.
-            </p>
-
-            <h3>Map Awareness</h3>
-
-            <ul>
-                <li>Check bridges connected to your base.</li>
-                <li>Watch which teams have lost their beds.</li>
-                <li>Remember where enemy players were last seen.</li>
-                <li>Avoid entering a fight when another team can attack your bed.</li>
-            </ul>
-
-            <h3>Team Communication</h3>
-
-            <p>
-                Short and clear information is usually more useful than long
-                messages. Report incoming players, exposed beds, and important
-                resource locations.
-            </p>
-        `,
+            "Improve attack timing, defense, awareness, and resource management.",
         keywords: [
             "bedwars",
             "strategy",
             "tips",
             "win",
-            "winning",
-            "resource",
             "attack",
             "defense",
-            "teamwork",
-            "awareness"
+            "resources"
         ],
         trending: true,
-        recommended: true
+        recommended: true,
+        content: `
+            <h3>Resource Management</h3>
+
+            <p>
+                Decide what the team needs before spending resources.
+                Blocks, tools, weapons, and defense materials have different uses.
+            </p>
+
+            <h3>Map Awareness</h3>
+
+            <ul>
+                <li>Check bridges connected to the base.</li>
+                <li>Watch which teams have lost their beds.</li>
+                <li>Remember where enemy players were last seen.</li>
+            </ul>
+        `
     },
     {
-        id: "pvp-improvement-tips",
+        id: "pvp-improvement",
         title: "PvP Improvement Tips",
         category: "Tips",
         description:
-            "Improve movement, spacing, aim, sprint resetting, and combat decisions.",
-        content: `
-            <h3>Movement</h3>
-
-            <p>
-                Avoid moving in a completely predictable direction.
-                Controlled strafing can make it harder for an opponent to
-                maintain accurate aim.
-            </p>
-
-            <h3>Spacing</h3>
-
-            <p>
-                Pay attention to the distance between both players.
-                Walking directly into every attack can make a fight much
-                harder to control.
-            </p>
-
-            <h3>Aim</h3>
-
-            <ul>
-                <li>Keep the crosshair near the opponent before clicking.</li>
-                <li>Avoid using sensitivity that is difficult to control.</li>
-                <li>Practice tracking moving targets.</li>
-                <li>Do not sacrifice accuracy only to click faster.</li>
-            </ul>
-
-            <h3>Practice Routine</h3>
-
-            <ol>
-                <li>Practice aim for five minutes.</li>
-                <li>Practice movement for five minutes.</li>
-                <li>Play matches with one specific goal.</li>
-                <li>Review which situations caused each loss.</li>
-            </ol>
-        `,
+            "Improve aim, movement, spacing, and combat decision-making.",
         keywords: [
             "pvp",
             "aim",
@@ -223,371 +126,185 @@ const searchData = [
             "spacing",
             "combat",
             "practice",
-            "improve",
-            "sprint reset",
-            "w tap",
             "clicking"
         ],
         trending: true,
-        recommended: true
+        recommended: true,
+        content: `
+            <h3>Movement</h3>
+
+            <p>
+                Avoid moving in a completely predictable direction.
+                Practice controlled strafing while maintaining aim.
+            </p>
+
+            <h3>Aim</h3>
+
+            <ul>
+                <li>Keep the crosshair near the opponent.</li>
+                <li>Use a sensitivity that is easy to control.</li>
+                <li>Do not sacrifice accuracy only to click faster.</li>
+            </ul>
+        `
     },
     {
         id: "lifesteal-guide",
         title: "Lifesteal Guide",
         category: "Guide",
         description:
-            "Understand survival priorities, hearts, combat risks, and progression in Lifesteal.",
-        content: `
-            <p>
-                Lifesteal combines survival gameplay with player-versus-player
-                combat and heart-related progression.
-            </p>
-
-            <h3>Early Priorities</h3>
-
-            <ul>
-                <li>Gather basic resources before searching for fights.</li>
-                <li>Build a safe location for important items.</li>
-                <li>Avoid risking valuable equipment without a plan.</li>
-                <li>Learn the current server rules before trading or fighting.</li>
-            </ul>
-
-            <h3>Combat Decisions</h3>
-
-            <p>
-                Not every fight is worth taking. Consider equipment,
-                location, escape routes, nearby players, and the value of
-                items in your inventory.
-            </p>
-
-            <div class="article-note">
-                <p>
-                    Lifesteal rules and heart mechanics may change between
-                    seasons. Check ArchMC announcements for current details.
-                </p>
-            </div>
-        `,
+            "Learn survival priorities, combat risks, and heart progression.",
         keywords: [
             "lifesteal",
             "life steal",
             "hearts",
             "survival",
             "pvp",
-            "guide",
-            "season",
-            "combat",
-            "progression"
+            "guide"
         ],
         trending: true,
-        recommended: false
+        recommended: false,
+        content: `
+            <p>
+                Lifesteal combines survival gameplay with player combat
+                and heart-related progression.
+            </p>
+
+            <h3>Early Priorities</h3>
+
+            <ul>
+                <li>Gather resources before searching for fights.</li>
+                <li>Store important items safely.</li>
+                <li>Avoid risking valuable equipment without a plan.</li>
+            </ul>
+        `
     },
     {
         id: "duels-guide",
         title: "Duels Guide",
         category: "Guide",
         description:
-            "Learn the basics of kits, movement, spacing, and match strategy in Duels.",
-        content: `
-            <h3>Learn the Kit</h3>
-
-            <p>
-                Each kit can require a different strategy. Learn the available
-                items before focusing only on mechanical speed.
-            </p>
-
-            <h3>Control the Fight</h3>
-
-            <ul>
-                <li>Avoid standing near dangerous edges.</li>
-                <li>Track the opponent's healing and utility items.</li>
-                <li>Use movement to create better attack angles.</li>
-                <li>Do not repeat the same approach after every loss.</li>
-            </ul>
-
-            <h3>Review Matches</h3>
-
-            <p>
-                After a loss, identify whether the main problem was aim,
-                movement, item usage, positioning, or decision-making.
-            </p>
-        `,
+            "Learn kits, movement, spacing, and match strategy.",
         keywords: [
             "duels",
             "duel",
             "kit",
-            "kits",
             "pvp",
             "match",
-            "strategy",
-            "fight",
-            "practice"
+            "strategy"
         ],
         trending: false,
-        recommended: true
-    },
-    {
-        id: "housing-guide",
-        title: "Housing Guide",
-        category: "Guide",
-        description:
-            "Learn the basics of creating, managing, and sharing an ArchMC Housing plot.",
+        recommended: true,
         content: `
-            <p>
-                Housing allows players to create and manage a personal area
-                that other players may be able to visit.
-            </p>
-
-            <h3>Planning a Housing Project</h3>
-
-            <ul>
-                <li>Decide the purpose of the plot before building.</li>
-                <li>Create a clear entrance for visitors.</li>
-                <li>Use signs or instructions when interaction is required.</li>
-                <li>Test the plot from a visitor's perspective.</li>
-            </ul>
-
-            <h3>Visitor Experience</h3>
+            <h3>Learn the Kit</h3>
 
             <p>
-                Keep important areas easy to find. Avoid excessive decorations
-                that make navigation difficult or reduce device performance.
+                Learn the available items and how each item affects the match.
             </p>
-        `,
-        keywords: [
-            "housing",
-            "house",
-            "plot",
-            "build",
-            "building",
-            "visitor",
-            "guide",
-            "create"
-        ],
-        trending: false,
-        recommended: true
+
+            <h3>Review Matches</h3>
+
+            <p>
+                Identify whether a loss was caused by aim, movement,
+                positioning, item usage, or decision-making.
+            </p>
+        `
     },
     {
         id: "useful-commands",
         title: "Useful ArchMC Commands",
         category: "Commands",
         description:
-            "Find useful server commands and explanations in one place.",
-        content: `
-            <p>
-                Commands can differ between game modes and may change during
-                server updates.
-            </p>
-
-            <div class="article-note">
-                <p>
-                    Only verified commands should be added to this page.
-                    Test every command in-game before publishing it.
-                </p>
-            </div>
-
-            <h3>General Help</h3>
-
-            <ul>
-                <li>
-                    <code>/help</code>
-                    may display available help information.
-                </li>
-                <li>
-                    Add verified party commands here.
-                </li>
-                <li>
-                    Add verified friend commands here.
-                </li>
-                <li>
-                    Add verified game mode commands here.
-                </li>
-            </ul>
-        `,
+            "Find useful server commands and explanations.",
         keywords: [
-            "command",
             "commands",
+            "command",
             "help",
             "party",
             "friends",
-            "server",
-            "navigation",
-            "archmc"
+            "server"
         ],
         trending: false,
-        recommended: true
-    },
-    {
-        id: "new-player-guide",
-        title: "New Player Guide",
-        category: "Guide",
-        description:
-            "A simple starting guide for players joining ArchMC for the first time.",
+        recommended: true,
         content: `
-            <h3>Before Playing</h3>
+            <p>
+                Commands may change after server updates.
+                Verify each command in-game before publishing it.
+            </p>
+
+            <h3>General Commands</h3>
 
             <ul>
-                <li>Read the current server rules.</li>
-                <li>Check the available game modes.</li>
-                <li>Learn the basic lobby navigation.</li>
-                <li>Avoid sharing personal account information.</li>
+                <li>Add verified help commands here.</li>
+                <li>Add verified party commands here.</li>
+                <li>Add verified friend commands here.</li>
             </ul>
-
-            <h3>First Matches</h3>
-
-            <p>
-                Use early matches to learn maps, items, and objectives.
-                Winning immediately is less important than understanding
-                how each game mode works.
-            </p>
-
-            <h3>Getting Help</h3>
-
-            <p>
-                Use official ArchMC resources for account issues, purchases,
-                punishments, and server-specific support.
-            </p>
-
-            <a
-                class="article-official-link"
-                href="https://arch.mc/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Visit ArchMC
-                <span aria-hidden="true">→</span>
-            </a>
-        `,
-        keywords: [
-            "new",
-            "player",
-            "beginner",
-            "start",
-            "starting",
-            "join",
-            "guide",
-            "archmc",
-            "help"
-        ],
-        trending: false,
-        recommended: true
+        `
     },
     {
         id: "archmc-ranks",
         title: "ArchMC Ranks",
         category: "Ranks",
         description:
-            "Explore ArchMC ranks, possible benefits, and official server services.",
-        content: `
-            <p>
-                Rank availability, prices, benefits, and purchase conditions
-                can change over time.
-            </p>
-
-            <div class="article-note">
-                <p>
-                    Always use the official ArchMC website for current prices,
-                    rank details, purchase terms, and support.
-                </p>
-            </div>
-
-            <h3>Before Purchasing</h3>
-
-            <ul>
-                <li>Check which game modes support the rank.</li>
-                <li>Read the current list of rank benefits.</li>
-                <li>Check whether the purchase is permanent or temporary.</li>
-                <li>Read the refund and payment terms.</li>
-                <li>Confirm that the Minecraft username is entered correctly.</li>
-            </ul>
-
-            <a
-                class="article-official-link"
-                href="https://arch.mc/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Open the Official ArchMC Website
-                <span aria-hidden="true">→</span>
-            </a>
-        `,
+            "Explore ranks, benefits, and official ArchMC services.",
         keywords: [
             "rank",
             "ranks",
             "store",
             "benefits",
             "purchase",
-            "buy",
-            "archmc",
-            "official"
+            "buy"
         ],
         trending: true,
-        recommended: true
-    },
-    {
-        id: "archmc-official-links",
-        title: "Official ArchMC Resources",
-        category: "Official",
-        description:
-            "Quick access to official ArchMC information and services.",
+        recommended: true,
         content: `
             <p>
-                Use official resources when checking announcements, purchases,
-                rules, support information, and server updates.
+                Rank prices, availability, and benefits may change.
+                Check the official ArchMC website before purchasing.
             </p>
 
-            <a
-                class="article-official-link"
-                href="https://arch.mc/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Visit ArchMC
-                <span aria-hidden="true">→</span>
-            </a>
-        `,
-        keywords: [
-            "official",
-            "website",
-            "archmc",
-            "links",
-            "support",
-            "updates",
-            "news"
-        ],
-        trending: false,
-        recommended: true
+            <p>
+                <a
+                    href="https://arch.mc/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Visit the official ArchMC website
+                </a>
+            </p>
+        `
     }
 ];
 
 // ============================================================
-// 2. Application settings
+// Settings and state
 // ============================================================
 
-const SEARCH_HISTORY_KEY = "archSearchHistory";
-const MAX_HISTORY_ITEMS = 8;
-const MAX_MATCHING_SUGGESTIONS = 6;
+const HISTORY_KEY = "archsearch-history";
+const MAX_HISTORY = 8;
 
-let currentQuery = "";
 let currentResults = [];
 let currentCategory = "All";
+let currentQuery = "";
 
 // ============================================================
-// 3. DOM elements
+// Elements
 // ============================================================
 
-const heroSection = document.getElementById("heroSection");
-const searchArea = document.getElementById("searchArea");
+const homeSection = document.getElementById("homeSection");
+const searchWrapper = document.getElementById("searchWrapper");
 const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
-const clearInputButton = document.getElementById("clearInputButton");
-const suggestionPanel = document.getElementById("suggestionPanel");
+const clearButton = document.getElementById("clearButton");
 
-const matchingSuggestionsSection = document.getElementById(
-    "matchingSuggestionsSection"
+const liveSuggestionsSection = document.getElementById(
+    "liveSuggestionsSection"
 );
 
-const matchingSuggestions = document.getElementById(
-    "matchingSuggestions"
+const liveSuggestions = document.getElementById("liveSuggestions");
+const historySection = document.getElementById("historySection");
+const historyList = document.getElementById("historyList");
+const clearHistoryButton = document.getElementById(
+    "clearHistoryButton"
 );
 
 const trendingSection = document.getElementById("trendingSection");
@@ -599,24 +316,18 @@ const recommendedSection = document.getElementById(
 
 const recommendedList = document.getElementById("recommendedList");
 
-const historySection = document.getElementById("historySection");
-const historyList = document.getElementById("historyList");
-const clearHistoryButton = document.getElementById(
-    "clearHistoryButton"
-);
-
 const resultsSection = document.getElementById("resultsSection");
 const resultsTitle = document.getElementById("resultsTitle");
 const categoryFilters = document.getElementById("categoryFilters");
 const searchResults = document.getElementById("searchResults");
-const returnHomeButton = document.getElementById("returnHomeButton");
+const newSearchButton = document.getElementById("newSearchButton");
 
-const articleViewer = document.getElementById("articleViewer");
-const articleBackButton = document.getElementById("articleBackButton");
+const articleSection = document.getElementById("articleSection");
 const articleContent = document.getElementById("articleContent");
+const backButton = document.getElementById("backButton");
 
 // ============================================================
-// 4. Text and search utilities
+// Utilities
 // ============================================================
 
 function normalizeText(text) {
@@ -626,28 +337,7 @@ function normalizeText(text) {
         .replace(/\s+/g, " ");
 }
 
-function escapeHtml(text) {
-    return String(text)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-}
-
-function getCategoryIcon(category) {
-    const categoryIcons = {
-        Guide: "📘",
-        Tips: "💡",
-        Commands: "⌨️",
-        Ranks: "⭐",
-        Official: "🔗"
-    };
-
-    return categoryIcons[category] || "🔍";
-}
-
-function getSearchableText(item) {
+function searchableText(item) {
     return normalizeText(
         [
             item.title,
@@ -658,366 +348,165 @@ function getSearchableText(item) {
     );
 }
 
-// ============================================================
-// 5. Search history
-// ============================================================
-
-function getSearchHistory() {
+function getHistory() {
     try {
-        const savedHistory = localStorage.getItem(
-            SEARCH_HISTORY_KEY
+        const history = JSON.parse(
+            localStorage.getItem(HISTORY_KEY) || "[]"
         );
 
-        if (!savedHistory) {
-            return [];
-        }
-
-        const parsedHistory = JSON.parse(savedHistory);
-
-        if (!Array.isArray(parsedHistory)) {
-            return [];
-        }
-
-        return parsedHistory
-            .filter(function (item) {
-                return typeof item === "string";
-            })
-            .slice(0, MAX_HISTORY_ITEMS);
-    } catch (error) {
+        return Array.isArray(history) ? history : [];
+    } catch {
         return [];
     }
 }
 
-function saveSearchHistory(history) {
-    try {
-        localStorage.setItem(
-            SEARCH_HISTORY_KEY,
-            JSON.stringify(history)
-        );
-    } catch (error) {
-        console.warn("Search history could not be saved.");
-    }
-}
-
-function addSearchHistory(query) {
-    const cleanQuery = query.trim();
-
-    if (!cleanQuery) {
-        return;
-    }
-
-    const history = getSearchHistory().filter(function (item) {
-        return normalizeText(item) !== normalizeText(cleanQuery);
-    });
-
-    history.unshift(cleanQuery);
-
-    saveSearchHistory(
-        history.slice(0, MAX_HISTORY_ITEMS)
+function saveHistory(history) {
+    localStorage.setItem(
+        HISTORY_KEY,
+        JSON.stringify(history.slice(0, MAX_HISTORY))
     );
-
-    renderSearchHistory();
 }
 
-function removeSearchHistory(query) {
-    const updatedHistory = getSearchHistory().filter(function (item) {
+function addHistory(query) {
+    const updatedHistory = getHistory().filter(function (item) {
         return normalizeText(item) !== normalizeText(query);
     });
 
-    saveSearchHistory(updatedHistory);
-    renderSearchHistory();
+    updatedHistory.unshift(query);
+    saveHistory(updatedHistory);
+    renderHistory();
 }
 
-function clearSearchHistory() {
-    try {
-        localStorage.removeItem(SEARCH_HISTORY_KEY);
-    } catch (error) {
-        console.warn("Search history could not be cleared.");
-    }
-
-    renderSearchHistory();
-}
-
-// ============================================================
-// 6. Search scoring
-// ============================================================
-
-function calculateResultScore(item, queryWords) {
-    const title = normalizeText(item.title);
-    const category = normalizeText(item.category);
-    const description = normalizeText(item.description);
-
-    const keywords = item.keywords.map(function (keyword) {
-        return normalizeText(keyword);
+function removeHistory(query) {
+    const updatedHistory = getHistory().filter(function (item) {
+        return normalizeText(item) !== normalizeText(query);
     });
 
-    let score = 0;
-
-    queryWords.forEach(function (word) {
-        if (title === word) {
-            score += 15;
-        } else if (title.includes(word)) {
-            score += 7;
-        }
-
-        if (category === word) {
-            score += 6;
-        } else if (category.includes(word)) {
-            score += 4;
-        }
-
-        keywords.forEach(function (keyword) {
-            if (keyword === word) {
-                score += 6;
-            } else if (keyword.includes(word)) {
-                score += 3;
-            }
-        });
-
-        if (description.includes(word)) {
-            score += 2;
-        }
-    });
-
-    const normalizedQuery = queryWords.join(" ");
-
-    if (title.includes(normalizedQuery)) {
-        score += 10;
-    }
-
-    return score;
-}
-
-function searchArchMC(query) {
-    const normalizedQuery = normalizeText(query);
-
-    if (!normalizedQuery) {
-        return [];
-    }
-
-    const queryWords = normalizedQuery
-        .split(" ")
-        .filter(Boolean);
-
-    return searchData
-        .map(function (item) {
-            return {
-                item: item,
-                score: calculateResultScore(item, queryWords)
-            };
-        })
-        .filter(function (result) {
-            return result.score > 0;
-        })
-        .sort(function (firstResult, secondResult) {
-            if (secondResult.score !== firstResult.score) {
-                return secondResult.score - firstResult.score;
-            }
-
-            return firstResult.item.title.localeCompare(
-                secondResult.item.title
-            );
-        })
-        .map(function (result) {
-            return result.item;
-        });
+    saveHistory(updatedHistory);
+    renderHistory();
 }
 
 // ============================================================
-// 7. Suggestion panel
+// Suggestion rows
 // ============================================================
 
-function openSuggestionPanel() {
-    searchArea.classList.add("open");
-    searchInput.setAttribute("aria-expanded", "true");
-
-    renderMatchingSuggestions(searchInput.value);
-    renderTrendingItems();
-    renderRecommendedItems();
-    renderSearchHistory();
-}
-
-function closeSuggestionPanel() {
-    searchArea.classList.remove("open");
-    searchInput.setAttribute("aria-expanded", "false");
-}
-
-function createSuggestionButton(item, icon) {
+function createSuggestionRow(options) {
     const button = document.createElement("button");
 
-    button.className = "suggestion-item";
+    button.className = "suggestion-row";
     button.type = "button";
 
-    const iconElement = document.createElement("span");
-    iconElement.className = "suggestion-item-icon";
-    iconElement.textContent = icon;
+    const symbol = document.createElement("span");
 
-    const content = document.createElement("span");
-    content.className = "suggestion-item-content";
+    symbol.className = "suggestion-symbol";
+    symbol.textContent = options.symbol;
+
+    const copy = document.createElement("span");
+
+    copy.className = "suggestion-copy";
 
     const title = document.createElement("span");
-    title.className = "suggestion-item-title";
-    title.textContent = item.title;
 
-    const description = document.createElement("span");
-    description.className = "suggestion-item-description";
-    description.textContent =
-        `${item.category} · ${item.description}`;
+    title.className = "suggestion-title";
+    title.textContent = options.title;
+
+    copy.appendChild(title);
+
+    if (options.description) {
+        const description = document.createElement("span");
+
+        description.className = "suggestion-description";
+        description.textContent = options.description;
+
+        copy.appendChild(description);
+    }
 
     const arrow = document.createElement("span");
+
     arrow.className = "suggestion-arrow";
     arrow.textContent = "↗";
 
-    content.appendChild(title);
-    content.appendChild(description);
-
-    button.appendChild(iconElement);
-    button.appendChild(content);
+    button.appendChild(symbol);
+    button.appendChild(copy);
     button.appendChild(arrow);
 
-    button.addEventListener("click", function () {
-        searchInput.value = item.title;
-        updateClearInputButton();
-
-        performSearch(item.title);
-    });
+    button.addEventListener("click", options.action);
 
     return button;
 }
 
-function renderMatchingSuggestions(query) {
+function openSuggestions() {
+    searchWrapper.classList.add("open");
+    renderSuggestions(searchInput.value);
+}
+
+function closeSuggestions() {
+    searchWrapper.classList.remove("open");
+}
+
+function renderSuggestions(query) {
     const normalizedQuery = normalizeText(query);
 
-    matchingSuggestions.replaceChildren();
+    if (normalizedQuery) {
+        liveSuggestionsSection.hidden = false;
+        historySection.hidden = true;
+        trendingSection.hidden = true;
+        recommendedSection.hidden = true;
 
-    if (!normalizedQuery) {
-        matchingSuggestionsSection.hidden = true;
-        trendingSection.hidden = false;
-        recommendedSection.hidden = false;
-        historySection.hidden = false;
+        liveSuggestions.replaceChildren();
+
+        const matches = searchData
+            .filter(function (item) {
+                return searchableText(item).includes(normalizedQuery);
+            })
+            .slice(0, 8);
+
+        matches.forEach(function (item) {
+            liveSuggestions.appendChild(
+                createSuggestionRow({
+                    symbol: "⌕",
+                    title: item.title,
+                    description:
+                        `${item.category} · ${item.description}`,
+                    action: function () {
+                        performSearch(item.title);
+                    }
+                })
+            );
+        });
+
+        if (matches.length === 0) {
+            const emptyMessage = document.createElement("p");
+
+            emptyMessage.className = "empty-message";
+            emptyMessage.textContent = "No matching suggestions.";
+
+            liveSuggestions.appendChild(emptyMessage);
+        }
 
         return;
     }
 
-    const matches = searchData
-        .filter(function (item) {
-            return getSearchableText(item).includes(normalizedQuery);
-        })
-        .slice(0, MAX_MATCHING_SUGGESTIONS);
+    liveSuggestionsSection.hidden = true;
+    historySection.hidden = false;
+    trendingSection.hidden = false;
+    recommendedSection.hidden = false;
 
-    matchingSuggestionsSection.hidden = matches.length === 0;
-    trendingSection.hidden = true;
-    recommendedSection.hidden = true;
-    historySection.hidden = true;
-
-    matches.forEach(function (item) {
-        matchingSuggestions.appendChild(
-            createSuggestionButton(
-                item,
-                getCategoryIcon(item.category)
-            )
-        );
-    });
+    renderHistory();
+    renderTrending();
+    renderRecommended();
 }
 
-function renderTrendingItems() {
-    trendingList.replaceChildren();
-
-    const trendingItems = searchData
-        .filter(function (item) {
-            return item.trending;
-        })
-        .slice(0, 5);
-
-    trendingItems.forEach(function (item) {
-        trendingList.appendChild(
-            createSuggestionButton(item, "🔥")
-        );
-    });
-}
-
-function renderRecommendedItems() {
-    recommendedList.replaceChildren();
-
-    const recommendedItems = searchData
-        .filter(function (item) {
-            return item.recommended;
-        })
-        .slice(0, 5);
-
-    recommendedItems.forEach(function (item) {
-        recommendedList.appendChild(
-            createSuggestionButton(item, "✨")
-        );
-    });
-}
-
-function createHistoryRow(query) {
-    const row = document.createElement("div");
-    row.className = "history-row";
-
-    const button = document.createElement("button");
-    button.className = "suggestion-item";
-    button.type = "button";
-
-    const icon = document.createElement("span");
-    icon.className = "suggestion-item-icon";
-    icon.textContent = "🕘";
-
-    const content = document.createElement("span");
-    content.className = "suggestion-item-content";
-
-    const title = document.createElement("span");
-    title.className = "suggestion-item-title";
-    title.textContent = query;
-
-    content.appendChild(title);
-
-    const arrow = document.createElement("span");
-    arrow.className = "suggestion-arrow";
-    arrow.textContent = "↗";
-
-    button.appendChild(icon);
-    button.appendChild(content);
-    button.appendChild(arrow);
-
-    button.addEventListener("click", function () {
-        searchInput.value = query;
-        updateClearInputButton();
-
-        performSearch(query);
-    });
-
-    const removeButton = document.createElement("button");
-    removeButton.className = "remove-history-button";
-    removeButton.type = "button";
-    removeButton.setAttribute(
-        "aria-label",
-        `Remove ${query} from search history`
-    );
-    removeButton.textContent = "×";
-
-    removeButton.addEventListener("click", function (event) {
-        event.stopPropagation();
-        removeSearchHistory(query);
-    });
-
-    row.appendChild(button);
-    row.appendChild(removeButton);
-
-    return row;
-}
-
-function renderSearchHistory() {
-    const history = getSearchHistory();
+function renderHistory() {
+    const history = getHistory();
 
     historyList.replaceChildren();
-
     clearHistoryButton.hidden = history.length === 0;
 
     if (history.length === 0) {
         const emptyMessage = document.createElement("p");
-        emptyMessage.className = "empty-history";
+
+        emptyMessage.className = "empty-message";
         emptyMessage.textContent = "No recent searches yet.";
 
         historyList.appendChild(emptyMessage);
@@ -1025,162 +514,172 @@ function renderSearchHistory() {
     }
 
     history.forEach(function (query) {
-        historyList.appendChild(
-            createHistoryRow(query)
+        const entry = document.createElement("div");
+
+        entry.className = "history-entry";
+
+        entry.appendChild(
+            createSuggestionRow({
+                symbol: "↶",
+                title: query,
+                action: function () {
+                    performSearch(query);
+                }
+            })
         );
-    });
-}
 
-// ============================================================
-// 8. Category filters
-// ============================================================
+        const removeButton = document.createElement("button");
 
-function getResultCategories(results) {
-    const categories = results.map(function (item) {
-        return item.category;
-    });
+        removeButton.className = "remove-history-button";
+        removeButton.type = "button";
+        removeButton.textContent = "×";
+        removeButton.setAttribute(
+            "aria-label",
+            `Remove ${query}`
+        );
 
-    return [
-        "All",
-        ...new Set(categories)
-    ];
-}
-
-function renderCategoryFilters() {
-    categoryFilters.replaceChildren();
-
-    const categories = getResultCategories(currentResults);
-
-    categories.forEach(function (category) {
-        const button = document.createElement("button");
-
-        button.className = "category-filter";
-        button.type = "button";
-        button.textContent = category;
-
-        if (category === currentCategory) {
-            button.classList.add("active");
-        }
-
-        button.addEventListener("click", function () {
-            currentCategory = category;
-
-            renderCategoryFilters();
-            renderResults();
+        removeButton.addEventListener("click", function () {
+            removeHistory(query);
         });
 
-        categoryFilters.appendChild(button);
+        entry.appendChild(removeButton);
+        historyList.appendChild(entry);
     });
+}
+
+function renderTrending() {
+    trendingList.replaceChildren();
+
+    searchData
+        .filter(function (item) {
+            return item.trending;
+        })
+        .slice(0, 6)
+        .forEach(function (item) {
+            trendingList.appendChild(
+                createSuggestionRow({
+                    symbol: "↗",
+                    title: item.title,
+                    description: item.category,
+                    action: function () {
+                        performSearch(item.title);
+                    }
+                })
+            );
+        });
+}
+
+function renderRecommended() {
+    recommendedList.replaceChildren();
+
+    searchData
+        .filter(function (item) {
+            return item.recommended;
+        })
+        .slice(0, 6)
+        .forEach(function (item) {
+            recommendedList.appendChild(
+                createSuggestionRow({
+                    symbol: "★",
+                    title: item.title,
+                    description: item.description,
+                    action: function () {
+                        performSearch(item.title);
+                    }
+                })
+            );
+        });
 }
 
 // ============================================================
-// 9. Search results
+// Search
 // ============================================================
 
-function createResultCard(item) {
-    const card = document.createElement("button");
+function calculateScore(item, words) {
+    const title = normalizeText(item.title);
+    const category = normalizeText(item.category);
+    const description = normalizeText(item.description);
+    const keywords = item.keywords.map(normalizeText);
 
-    card.className = "result-card";
-    card.type = "button";
-    card.dataset.articleId = item.id;
+    let score = 0;
 
-    const category = document.createElement("span");
-    category.className = "result-category";
-    category.textContent = item.category;
+    words.forEach(function (word) {
+        if (title.includes(word)) {
+            score += 7;
+        }
 
-    const title = document.createElement("h3");
-    title.className = "result-title";
-    title.textContent = item.title;
+        if (category.includes(word)) {
+            score += 4;
+        }
 
-    const description = document.createElement("p");
-    description.className = "result-description";
-    description.textContent = item.description;
+        if (
+            keywords.some(function (keyword) {
+                return keyword.includes(word);
+            })
+        ) {
+            score += 3;
+        }
 
-    const openText = document.createElement("span");
-    openText.className = "result-open";
-    openText.textContent = "Open →";
-
-    card.appendChild(category);
-    card.appendChild(title);
-    card.appendChild(description);
-    card.appendChild(openText);
-
-    card.addEventListener("click", function () {
-        openArticle(item.id);
+        if (description.includes(word)) {
+            score += 1;
+        }
     });
 
-    return card;
+    return score;
 }
 
-function renderNoResults() {
-    const noResults = document.createElement("div");
-    noResults.className = "no-results";
+function searchItems(query) {
+    const words = normalizeText(query)
+        .split(" ")
+        .filter(Boolean);
 
-    const title = document.createElement("h3");
-    title.textContent = "No results found";
-
-    const message = document.createElement("p");
-    message.textContent =
-        `No ArchSearch information was found for "${currentQuery}". ` +
-        "Try Bedwars, Lifesteal, PvP, ranks, commands, or beginner guide.";
-
-    noResults.appendChild(title);
-    noResults.appendChild(message);
-
-    searchResults.appendChild(noResults);
-}
-
-function renderResults() {
-    searchResults.replaceChildren();
-
-    const filteredResults =
-        currentCategory === "All"
-            ? currentResults
-            : currentResults.filter(function (item) {
-                return item.category === currentCategory;
-            });
-
-    if (filteredResults.length === 0) {
-        renderNoResults();
-        return;
-    }
-
-    filteredResults.forEach(function (item) {
-        searchResults.appendChild(
-            createResultCard(item)
-        );
-    });
+    return searchData
+        .map(function (item) {
+            return {
+                item: item,
+                score: calculateScore(item, words)
+            };
+        })
+        .filter(function (result) {
+            return result.score > 0;
+        })
+        .sort(function (first, second) {
+            return second.score - first.score;
+        })
+        .map(function (result) {
+            return result.item;
+        });
 }
 
 function performSearch(query) {
-    const cleanQuery = query.trim();
+    const cleanedQuery = query.trim();
 
-    if (!cleanQuery) {
+    if (!cleanedQuery) {
         searchInput.focus();
-        openSuggestionPanel();
+        openSuggestions();
         return;
     }
 
-    currentQuery = cleanQuery;
-    currentResults = searchArchMC(cleanQuery);
+    currentQuery = cleanedQuery;
+    currentResults = searchItems(cleanedQuery);
     currentCategory = "All";
 
-    searchInput.value = cleanQuery;
+    searchInput.value = cleanedQuery;
 
-    addSearchHistory(cleanQuery);
-    updateClearInputButton();
-    closeSuggestionPanel();
+    addHistory(cleanedQuery);
+    closeSuggestions();
+    updateClearButton();
 
-    heroSection.style.display = "none";
-    articleViewer.classList.remove("visible");
+    homeSection.style.display = "none";
+    articleSection.classList.remove("visible");
     resultsSection.classList.add("visible");
 
     resultsTitle.textContent =
-        currentResults.length === 1
-            ? `1 result for "${cleanQuery}"`
-            : `${currentResults.length} results for "${cleanQuery}"`;
+        `${currentResults.length} result` +
+        `${currentResults.length === 1 ? "" : "s"}` +
+        ` for "${cleanedQuery}"`;
 
-    renderCategoryFilters();
+    renderCategories();
     renderResults();
 
     window.scrollTo({
@@ -1190,35 +689,125 @@ function performSearch(query) {
 }
 
 // ============================================================
-// 10. Article viewer
+// Results
 // ============================================================
 
-function openArticle(articleId) {
-    const article = searchData.find(function (item) {
-        return item.id === articleId;
+function renderCategories() {
+    categoryFilters.replaceChildren();
+
+    const categories = [
+        "All",
+        ...new Set(
+            currentResults.map(function (item) {
+                return item.category;
+            })
+        )
+    ];
+
+    categories.forEach(function (category) {
+        const button = document.createElement("button");
+
+        button.className = "category-button";
+        button.type = "button";
+        button.textContent = category;
+
+        if (category === currentCategory) {
+            button.classList.add("active");
+        }
+
+        button.addEventListener("click", function () {
+            currentCategory = category;
+            renderCategories();
+            renderResults();
+        });
+
+        categoryFilters.appendChild(button);
+    });
+}
+
+function createResultCard(item) {
+    const card = document.createElement("button");
+
+    card.className = "result-card";
+    card.type = "button";
+
+    const category = document.createElement("span");
+
+    category.className = "result-category";
+    category.textContent = item.category;
+
+    const title = document.createElement("h3");
+
+    title.className = "result-title";
+    title.textContent = item.title;
+
+    const description = document.createElement("p");
+
+    description.className = "result-description";
+    description.textContent = item.description;
+
+    const open = document.createElement("span");
+
+    open.className = "result-open";
+    open.textContent = "Open →";
+
+    card.appendChild(category);
+    card.appendChild(title);
+    card.appendChild(description);
+    card.appendChild(open);
+
+    card.addEventListener("click", function () {
+        openArticle(item);
     });
 
-    if (!article) {
+    return card;
+}
+
+function renderResults() {
+    searchResults.replaceChildren();
+
+    const visibleResults =
+        currentCategory === "All"
+            ? currentResults
+            : currentResults.filter(function (item) {
+                return item.category === currentCategory;
+            });
+
+    if (visibleResults.length === 0) {
+        const message = document.createElement("div");
+
+        message.className = "no-results";
+        message.textContent =
+            `No ArchSearch information was found for "${currentQuery}".`;
+
+        searchResults.appendChild(message);
         return;
     }
 
-    const safeTitle = escapeHtml(article.title);
-    const safeCategory = escapeHtml(article.category);
+    visibleResults.forEach(function (item) {
+        searchResults.appendChild(createResultCard(item));
+    });
+}
 
+// ============================================================
+// Article viewer
+// ============================================================
+
+function openArticle(item) {
     articleContent.innerHTML = `
         <span class="article-category">
-            ${safeCategory}
+            ${item.category}
         </span>
 
         <h2>
-            ${safeTitle}
+            ${item.title}
         </h2>
 
-        ${article.content}
+        ${item.content}
     `;
 
     resultsSection.classList.remove("visible");
-    articleViewer.classList.add("visible");
+    articleSection.classList.add("visible");
 
     window.scrollTo({
         top: 0,
@@ -1226,8 +815,8 @@ function openArticle(articleId) {
     });
 }
 
-function closeArticle() {
-    articleViewer.classList.remove("visible");
+function showResults() {
+    articleSection.classList.remove("visible");
     resultsSection.classList.add("visible");
 
     window.scrollTo({
@@ -1236,109 +825,78 @@ function closeArticle() {
     });
 }
 
-// ============================================================
-// 11. Home and input controls
-// ============================================================
-
 function showHome() {
     resultsSection.classList.remove("visible");
-    articleViewer.classList.remove("visible");
+    articleSection.classList.remove("visible");
 
-    heroSection.style.display = "";
-    currentQuery = "";
-    currentResults = [];
-    currentCategory = "All";
+    homeSection.style.display = "";
 
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
 
-    window.setTimeout(function () {
+    setTimeout(function () {
         searchInput.focus();
-        openSuggestionPanel();
-    }, 250);
+        openSuggestions();
+    }, 200);
 }
 
-function updateClearInputButton() {
-    const hasValue = searchInput.value.trim().length > 0;
+// ============================================================
+// Input controls
+// ============================================================
 
-    clearInputButton.classList.toggle(
+function updateClearButton() {
+    clearButton.classList.toggle(
         "visible",
-        hasValue
+        searchInput.value.trim().length > 0
     );
 }
 
-function clearSearchInput() {
-    searchInput.value = "";
-    updateClearInputButton();
-    renderMatchingSuggestions("");
-
-    searchInput.focus();
-}
-
-// ============================================================
-// 12. Event listeners
-// ============================================================
-
 searchForm.addEventListener("submit", function (event) {
     event.preventDefault();
-
     performSearch(searchInput.value);
 });
 
 searchInput.addEventListener("focus", function () {
-    openSuggestionPanel();
+    openSuggestions();
 });
 
 searchInput.addEventListener("click", function () {
-    openSuggestionPanel();
+    openSuggestions();
 });
 
 searchInput.addEventListener("input", function () {
-    updateClearInputButton();
-    renderMatchingSuggestions(searchInput.value);
+    updateClearButton();
+    renderSuggestions(searchInput.value);
 });
 
-searchInput.addEventListener("keydown", function (event) {
-    if (event.key === "Escape") {
-        closeSuggestionPanel();
-        searchInput.blur();
-    }
-});
-
-clearInputButton.addEventListener("click", function () {
-    clearSearchInput();
+clearButton.addEventListener("click", function () {
+    searchInput.value = "";
+    updateClearButton();
+    renderSuggestions("");
+    searchInput.focus();
 });
 
 clearHistoryButton.addEventListener("click", function () {
-    clearSearchHistory();
+    localStorage.removeItem(HISTORY_KEY);
+    renderHistory();
 });
 
-returnHomeButton.addEventListener("click", function () {
-    showHome();
-});
-
-articleBackButton.addEventListener("click", function () {
-    closeArticle();
-});
+newSearchButton.addEventListener("click", showHome);
+backButton.addEventListener("click", showResults);
 
 document.addEventListener("click", function (event) {
-    if (!searchArea.contains(event.target)) {
-        closeSuggestionPanel();
+    if (!searchWrapper.contains(event.target)) {
+        closeSuggestions();
     }
 });
 
 // ============================================================
-// 13. Initial rendering
+// Initial setup
 // ============================================================
 
-function initializeArchSearch() {
-    renderTrendingItems();
-    renderRecommendedItems();
-    renderSearchHistory();
-    renderMatchingSuggestions("");
-    updateClearInputButton();
-}
-
-initializeArchSearch();
+renderHistory();
+renderTrending();
+renderRecommended();
+updateClearButton();

@@ -23,52 +23,21 @@
     <link
         rel="icon"
         type="image/jpeg"
-        href="IMG_2885.jpeg"
+        href="IMG_2885.jpeg?v=2.0.0"
     >
 
     <link
         rel="stylesheet"
-        href="style.css"
+        href="style.css?v=2.0.0"
     >
 </head>
 
 <body>
-    <header class="site-header">
-        <a
-            class="header-brand"
-            href="#home"
-            aria-label="Return to ArchSearch home"
-        >
+    <main class="page-container">
+        <section class="home-section" id="homeSection">
             <img
-                class="header-logo"
-                src="IMG_2885.jpeg"
-                alt="ArchMC logo"
-            >
-
-            <span>ArchSearch</span>
-        </a>
-
-        <a
-            class="official-link"
-            href="https://arch.mc/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Visit ArchMC
-        </a>
-    </header>
-
-    <main
-        class="page-container"
-        id="home"
-    >
-        <section
-            class="hero-section"
-            id="heroSection"
-        >
-            <img
-                class="main-logo"
-                src="IMG_2885.jpeg"
+                class="logo"
+                src="IMG_2885.jpeg?v=2.0.0"
                 alt="ArchMC logo"
             >
 
@@ -78,20 +47,10 @@
                 Search guides, tips, commands, ranks, and information about ArchMC.
             </p>
 
-            <div
-                class="search-area"
-                id="searchArea"
-            >
-                <form
-                    class="search-form"
-                    id="searchForm"
-                    role="search"
-                >
-                    <span
-                        class="search-icon"
-                        aria-hidden="true"
-                    >
-                        🔍
+            <div class="search-wrapper" id="searchWrapper">
+                <form class="search-form" id="searchForm">
+                    <span class="search-icon" aria-hidden="true">
+                        &#128269;
                     </span>
 
                     <input
@@ -101,23 +60,18 @@
                         placeholder="Search ArchMC..."
                         autocomplete="off"
                         aria-label="Search ArchMC"
-                        aria-controls="suggestionPanel"
-                        aria-expanded="false"
                     >
 
                     <button
-                        class="clear-input-button"
-                        id="clearInputButton"
+                        class="clear-button"
+                        id="clearButton"
                         type="button"
                         aria-label="Clear search"
                     >
-                        ×
+                        &times;
                     </button>
 
-                    <button
-                        class="search-button"
-                        type="submit"
-                    >
+                    <button class="search-button" type="submit">
                         Search
                     </button>
                 </form>
@@ -128,59 +82,25 @@
                     aria-label="Search suggestions"
                 >
                     <div
-                        class="suggestion-section"
-                        id="matchingSuggestionsSection"
+                        class="panel-section"
+                        id="liveSuggestionsSection"
+                        hidden
                     >
-                        <div class="suggestion-heading">
-                            <h2>Suggestions</h2>
-                        </div>
+                        <p class="panel-heading">
+                            Suggestions
+                        </p>
 
-                        <div id="matchingSuggestions"></div>
+                        <div id="liveSuggestions"></div>
                     </div>
 
                     <div
-                        class="suggestion-section"
-                        id="trendingSection"
-                    >
-                        <div class="suggestion-heading">
-                            <h2>
-                                <span aria-hidden="true">🔥</span>
-                                Trending
-                            </h2>
-                        </div>
-
-                        <div
-                            class="suggestion-list"
-                            id="trendingList"
-                        ></div>
-                    </div>
-
-                    <div
-                        class="suggestion-section"
-                        id="recommendedSection"
-                    >
-                        <div class="suggestion-heading">
-                            <h2>
-                                <span aria-hidden="true">✨</span>
-                                Recommended
-                            </h2>
-                        </div>
-
-                        <div
-                            class="suggestion-list"
-                            id="recommendedList"
-                        ></div>
-                    </div>
-
-                    <div
-                        class="suggestion-section"
+                        class="panel-section"
                         id="historySection"
                     >
-                        <div class="suggestion-heading">
-                            <h2>
-                                <span aria-hidden="true">🕘</span>
-                                Recent Searches
-                            </h2>
+                        <div class="panel-heading-row">
+                            <p class="panel-heading">
+                                Recent searches
+                            </p>
 
                             <button
                                 class="clear-history-button"
@@ -191,10 +111,29 @@
                             </button>
                         </div>
 
-                        <div
-                            class="suggestion-list"
-                            id="historyList"
-                        ></div>
+                        <div id="historyList"></div>
+                    </div>
+
+                    <div
+                        class="panel-section"
+                        id="trendingSection"
+                    >
+                        <p class="panel-heading">
+                            Trending on ArchSearch
+                        </p>
+
+                        <div id="trendingList"></div>
+                    </div>
+
+                    <div
+                        class="panel-section"
+                        id="recommendedSection"
+                    >
+                        <p class="panel-heading">
+                            Recommended
+                        </p>
+
+                        <div id="recommendedList"></div>
                     </div>
                 </section>
             </div>
@@ -204,32 +143,29 @@
                 href="https://arch.mc/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Visit ArchMC and explore ranks"
             >
-                <span class="advertisement-label">
-                    Featured
-                </span>
+                <img
+                    class="advertisement-logo"
+                    src="IMG_2885.jpeg?v=2.0.0"
+                    alt=""
+                >
 
-                <div class="advertisement-icon">
-                    <img
-                        src="IMG_2885.jpeg"
-                        alt=""
-                    >
-                </div>
+                <span class="advertisement-text">
+                    <span class="advertisement-label">
+                        Featured
+                    </span>
 
-                <div class="advertisement-copy">
                     <strong>
                         Upgrade Your ArchMC Experience
                     </strong>
 
                     <span>
-                        Explore ArchMC ranks, exclusive benefits, game modes, and server updates.
+                        Explore ranks, benefits, game modes, and updates.
                     </span>
-                </div>
+                </span>
 
-                <span class="advertisement-action">
+                <span class="advertisement-button">
                     Visit ArchMC
-                    <span aria-hidden="true">→</span>
                 </span>
             </a>
         </section>
@@ -251,8 +187,8 @@
                 </div>
 
                 <button
-                    class="return-home-button"
-                    id="returnHomeButton"
+                    class="new-search-button"
+                    id="newSearchButton"
                     type="button"
                 >
                     New search
@@ -262,7 +198,7 @@
             <nav
                 class="category-filters"
                 id="categoryFilters"
-                aria-label="Search result categories"
+                aria-label="Result categories"
             ></nav>
 
             <div
@@ -272,16 +208,16 @@
         </section>
 
         <section
-            class="article-viewer"
-            id="articleViewer"
+            class="article-section"
+            id="articleSection"
             aria-live="polite"
         >
             <button
-                class="article-back-button"
-                id="articleBackButton"
+                class="back-button"
+                id="backButton"
                 type="button"
             >
-                ← Back to results
+                &larr; Back to results
             </button>
 
             <article
@@ -290,17 +226,13 @@
             ></article>
         </section>
 
-        <footer class="site-footer">
+        <footer>
             <p>
                 ArchSearch is an unofficial community project and is not affiliated with ArchMC.
-            </p>
-
-            <p>
-                Server information, rank benefits, commands, and game features may change over time.
             </p>
         </footer>
     </main>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2.0.0"></script>
 </body>
 </html>

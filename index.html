@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Search guides, tips, commands, and information about ArchMC."
+    >
+
+    <title>ArchSearch</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page-container">
+        <section class="search-section">
+            <img
+                class="logo"
+                src="IMG_2885.jpeg"
+                alt="ArchMC logo"
+            >
+
+            <h1>ArchSearch</h1>
+
+            <p class="subtitle">
+                Search guides, tips, commands, and information about ArchMC.
+            </p>
+
+            <form class="search-form" id="searchForm">
+                <input
+                    class="search-input"
+                    id="searchInput"
+                    type="search"
+                    placeholder="Search ArchMC..."
+                    autocomplete="off"
+                    aria-label="Search ArchMC"
+                >
+
+                <button class="search-button" type="submit">
+                    Search
+                </button>
+            </form>
+
+            <div class="quick-searches">
+                <button class="quick-search-button" data-query="bedwars">
+                    Bedwars
+                </button>
+
+                <button class="quick-search-button" data-query="lifesteal">
+                    Lifesteal
+                </button>
+
+                <button class="quick-search-button" data-query="commands">
+                    Commands
+                </button>
+
+                <button class="quick-search-button" data-query="tips">
+                    Tips
+                </button>
+            </div>
+        </section>
+
+        <section
+            class="results-section"
+            id="resultsSection"
+            aria-live="polite"
+        >
+            <h2 id="resultsTitle">Search results</h2>
+
+            <div id="searchResults"></div>
+        </section>
+
+        <footer>
+            <p>
+                ArchSearch is an unofficial community project and is not
+                affiliated with ArchMC.
+            </p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

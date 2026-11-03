@@ -78,18 +78,6 @@ The website currently includes:
 
 ---
 
-## 🖼️ Preview
-
-<div align="center">
-
-<img src="IMG_2886.png" alt="ArchSearch Website Preview" width="850">
-
-</div>
-
-> Add `IMG_2886.png` to the repository if the preview image is not currently included.
-
----
-
 ## 🧠 How Search Works
 
 ArchSearch searches through a local collection of ArchMC resources.
